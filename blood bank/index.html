@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SFI GECI BLOOD BANK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
+   
+  </head>
+  <body>
+    <header>
+      <img src="src/blood.png" alt="logo" />
+      <h1>SFI GECI BLOOD BANK</h1>
+    </header>
+    <section>
+      <div class="card">
+        <form action="" method="POST">
+          <h1 id="head">REGISTRATION FORM</h1>
+          <div class="name">
+            <label for="flname">Name</label>
+            <input type="text" placeholder="  First Name" id="flname" />
+            <input type="text" placeholder="  Last Name" id="lname" />
+          </div>
+
+          <div class="age">
+            <label for="age">Date of Birth</label>
+            <input
+              type="date"
+              placeholder="  Date of Birth"
+              id="age"
+              min="12-31-2001"
+            />
+          </div>
+
+          <div class="gender">
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender"/>
+            <label for="gender"class="sex">Male</label>
+            <input type="radio" value="female" name="gender" />
+            <label for="gender" class="sex">Female</label>
+            <input type="radio" value="other" name="gender" />
+            <label for="gender" class="sex">Other</label>
+          </div>
+          <div class="bgrp">
+            <label for="grp">Blood Group</label>
+            <select name="blood-group" id="grp">
+              <option >--select--</option>
+              <option>A+ve</option>
+              <option>B+ve</option>
+              <option>O+ve</option>
+              <option>AB+ve</option>
+              <option>A-ve</option>
+              <option>B-ve</option>
+              <option>O-ve</option>
+              <option>AB-ve</option>
+            </select>
+          </div>
+          <div class="dist">
+            <label for="dist">District</label>
+            <select name="district" id="dist" >
+              <option>--select--</option>
+              <option>Alappuzha</option>
+              <option>Ernakulam</option>
+              <option >Idukki</option>
+              <option>Kannur</option>
+              <option>Kasaragod</option>
+              <option>Kollam</option>
+              <option>Kottayam</option>
+              <option>Kozhikode</option>
+              <option>Malappuram</option>
+              <option>Palakkad</option>
+              <option>Pathanamthitta</option>
+              <option>Thiruvananthapuram</option>
+              <option>Thrissur</option>
+              <option>Wayanad</option>
+            </select>
+          </div>
+          <div class="place">
+            <label for="loc">Place</label>
+            <input id="loc" type="text" placeholder="  Place" />
+          </div>
+          <div class="phone">
+            <label for="phone">Phone Number</label>
+            <input
+              type="text"
+              maxlength="10"
+              minlength="10"
+              placeholder="  Phone No"
+              id="phno"
+            />
+          </div>
+          <div class="reg">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

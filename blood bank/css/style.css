@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  background: beige;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background: linear-gradient(to left, #ff5f5f, #da1600);
+}
+header img {
+  width: 80px;
+  height: 10vh;
+}
+header h1 {
+  color: #ffffff;
+  padding: 10px;
+}
+#head {
+  color: #ffffff;
+}
+
+form {
+  background: linear-gradient(to left, #ff4242f5, #ff0000);
+  width: 500px;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 5%;
+}
+.card {
+  width: 100%;
+  align-self: center;
+}
+
+input[type="submit"],
+[type="reset"] {
+  border: none;
+  border-radius: 35px;
+  background: beige;
+  height: 35px;
+  width: 120px;
+  margin-top: 5%;
+  margin-left: 5px;
+}
+.reg {
+  text-align: center;
+}
+.dist select,
+.bgrp select {
+  border: none;
+  border-radius: 30px;
+  background: beige;
+  height: 30px;
+  width: 150px;
+}
+
+.name,
+.age,
+.place,
+.phone,
+.dist,
+.bgrp,
+.gender {
+  padding: 5px;
+  font-size: 25px;
+}
+
+input[type="radio"]:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #da1600;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+}
+#head {
+  text-align: center;
+}
+#flname,
+#lname,
+#age,
+#loc,
+#phno {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+label {
+  text-align: left;
+  color: #ffffff;
+
+}
+input[type="date"],
+select {
+  color: #0000008f;
+}
+.sex {
+  font-size: 20px;
+}
